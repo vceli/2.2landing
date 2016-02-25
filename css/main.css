@@ -1,0 +1,153 @@
+body{
+	font-family: 'Open Sans'
+}
+
+.container-fluid {
+    padding: 0 18%;
+}
+
+nav a{
+	text-decoration: none;
+	margin-left: 6%;
+}
+
+a{
+    text-decoration: none;
+}
+
+input{
+	display: block;
+}
+
+section{
+	background-color: #808080;
+}
+
+h1 {
+    width: 84%;
+    font-size: 40px;
+    margin-top: 52px;
+}
+
+img {
+    width: 26%;
+    margin-top: 10px;
+}
+
+nav {
+    font-size: 12px;
+    text-align: right;
+    margin-top: 15px;
+}
+
+.segundo p{
+    width: 92%;
+    font-size: 11.2px;
+    margin-top: 28px;
+    margin-bottom: 74px;
+}
+
+ul{
+    list-style: none;
+}
+
+input {
+    /*border: 1px solid green;*/
+    width: 90%;
+    margin: auto;
+    padding: 5px 0px 5px 6px;
+    margin-bottom: 4px;
+}
+
+.formulario{
+    padding: 20px 0px;
+    border-radius: 11px;
+    margin-bottom: 33px;
+    background-color: rgba(255,255,255,0.16);
+    margin-top: 53px;
+}
+
+.boton{
+    border:none;
+}
+
+footer p {
+    font-size: 10px;
+    margin-top: 12px;
+    margin-left: 14px;
+}
+
+
+
+/*.col-8{
+	border:1px solid red;
+}
+
+.col-4{
+	border:1px solid blue;  /780/
+}*/
+@media(max-width: 780px){
+    
+    .container-fluid{
+        width: 90%;
+        padding: 0px 0px;
+    }
+
+    .segundo{
+        width: 100%;
+    }
+
+    .segundo1{
+        width: 100%;
+    }
+
+
+
+/*	.container-fluid{
+        width: 100%;
+    }
+*/
+
+
+    /*.container{
+		width: 530px;
+	}
+
+	.encabezado img{
+		width: 49%;
+	}
+
+	nav{
+		font-size: 10px;
+		width: 103%;
+	}
+
+    h1{
+        font-size: 51px;
+        width:73%; 
+    }
+
+	p {
+    font-size: 14px;
+    width: 82%;
+   }
+
+
+
+    form{
+        width: 97%;
+        margin: auto;
+        margin-bottom: 
+    }
+
+
+    
+
+    input{
+        padding: 5px 272px 5px 6px;
+    }
+
+    button{
+       padding: 7px 191px; 
+    }*/
+}
